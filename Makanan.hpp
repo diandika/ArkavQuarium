@@ -3,7 +3,7 @@
 
 #include "Entity.hpp"
 
-class Makanan {
+class Makanan : public Entity {
 public:
   Makanan(int,int);//parameter x,y
 

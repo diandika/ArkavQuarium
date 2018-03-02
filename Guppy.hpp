@@ -1,7 +1,6 @@
 #ifndef GUPPY_HPP
 #define GUPPY_HPP
 
-#include "Entity.hpp"
 #include "Koin.hpp"
 
 class Guppy : public Entity{
@@ -9,7 +8,7 @@ class Guppy : public Entity{
     int level;
     int kenyang;
   public:
-    Guppy();
+    Guppy(int,int,int,int);
 
     int getLevel();
     bool isKenyang();
@@ -18,8 +17,9 @@ class Guppy : public Entity{
     void setLevel(int);
     void setKenyang(int);
 
-    void findFood();
+    virtual `void findFood();
     void move();
+    virtual dropCoin();
 };
 
 #endif

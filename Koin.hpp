@@ -3,7 +3,7 @@
 
 #include "Entity.h"
 
-class Koin {
+class Koin : public Entity {
 private:
   int Nilai;
 public:
