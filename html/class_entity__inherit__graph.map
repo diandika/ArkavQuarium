@@ -1,7 +1,0 @@
-<map id="Entity" name="Entity">
-<area shape="rect" id="node2" href="$class_guppy.html" title="Guppy" alt="" coords="9,80,69,107"/>
-<area shape="rect" id="node4" href="$class_koin.html" title="Koin" alt="" coords="93,80,141,107"/>
-<area shape="rect" id="node5" href="$class_makanan.html" title="Makanan" alt="" coords="165,80,240,107"/>
-<area shape="rect" id="node6" href="$class_siput.html" title="Siput" alt="" coords="265,80,317,107"/>
-<area shape="rect" id="node3" href="$class_piranha.html" title="Piranha" alt="" coords="5,155,72,181"/>
-</map>
