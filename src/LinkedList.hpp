@@ -10,6 +10,8 @@ template <class T>
 class LinkedList {
 private:
   /* data */
+  LinkedList nextItem;
+  T item;
 
 public:
 
@@ -33,7 +35,6 @@ public:
    * @param integer indeks entitas
    * @return template class entitas
    */
-  T getIndex(int);
 };
 
 #endif
