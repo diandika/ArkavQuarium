@@ -15,6 +15,12 @@ private:
 
 public:
 
+  LinkedList();
+  LinkedList(T value);
+
+  T getItem();
+  LinkedList getNext();
+
 /**@brief Instruksi pencarian entitas pada linkedlist
  * @param template class untuk sebuah entitas
  */
@@ -26,11 +32,11 @@ public:
   /**@brief instruksi menambah entitas pada linkedlist
    * @param template class untuk sebuah entitas.
    */
-  void add(T);
+  void add(LinkedList);
   /**@brief instruksi penghapusan entitas dalam linked list
    * @param template class untuk sebuah entitas yang akan dihapus.
    */
-  void remove(T);
+  void remove(LinkedList);
   /**@brief instruksi pengambilan entitas dalam linked list
    * @param integer indeks entitas
    * @return template class entitas
