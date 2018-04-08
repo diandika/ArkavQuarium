@@ -82,7 +82,7 @@ int main( int argc, char* args[] )
         clear_screen();
         draw_text("Panah untuk bergerak, r untuk reset, x untuk keluar", 18, 10, 10, 0, 0, 0);
         draw_text(fps_text, 18, 10, 30, 0, 0, 0);
-        draw_image("ikan.png", cx, cy);
+        draw_image("Snail.png", cx, cy);
         update_screen();
     }
 
