@@ -1,7 +1,7 @@
 #ifndef KOIN_HPP
 #define KOIN_HPP
 
-#include "Entity.h"
+#include "Entity.hpp"
 
 /** @class Koin
  * kelas Koin, sebuah tipe entitas di akuarium
@@ -9,7 +9,7 @@
  * */
 class Koin : public Entity {
 private:
-  int Nilai;
+  int nilai;
 public:
 	/**@brief Constructor.
 	 * @param integer, posisi X entitas

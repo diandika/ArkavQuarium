@@ -13,12 +13,12 @@ public:
 * @param integer, posisi entitas pada X.
 * @param integer, posisi entitas pada Y.
 * @param integer, level pertumbuhan entitas Piranha.
-* @param integer, tingkat kekenyangan entitas Piranha.
+* @param bool, status kekenyangan entitas Piranha.
 */
-  Piranha(int,int,int,int);
+  Piranha(int,int,int,bool,int);
 /**@brief instruksi mencari makan untuk Piranha
  */
-  void findFood();
+  void findFood(Guppy);
  /**@brief instruksi mengeluarkan koin untuk piranha.
   */
   void dropCoin();

@@ -2,6 +2,7 @@
 #define SIPUT_HPP
 
 #include "Entity.hpp"
+#include "Koin.hpp"
 
 class Siput : public Entity {
 public:
@@ -12,8 +13,9 @@ public:
 	 */
   Siput (int,int); // parameter x,y
 	/**@brief instruksi pengambilan koin.
+	 * @param Koin, koin yang akan diambil.
 	 */
-  void getCoin();
+  void getCoin(Koin C);
   /**@brief instruksi pergerakan siput
    */
   void move();
